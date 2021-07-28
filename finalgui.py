@@ -8,11 +8,11 @@ from tkinter import ttk
 import scipy
 from scipy.io import loadmat
 
-#loads the data into terminal/console (depending on ide)
+#loads the data into terminal/console (depending on ide) (change pathway for your device)
 annots = loadmat('/Users/ishaan/Desktop/angles/test.mat')
 print(annots)
 
-#defines and captures the first vide angle
+#defines and captures the first vide angle (change pathway for your device)
 video_name = "/Users/ishaan/Desktop/angles/angle1.mp4"
 video = imageio.get_reader(video_name)
 
@@ -74,7 +74,7 @@ def video_changed(event):
     msg = f'You selected {video_cb.get()}!'
     video_name = video_cb.get()
 
-#placing the dif videos into na dropdown box 
+#placing the dif videos into na dropdown box (change pathway for your device)
 video_angels = ('/Users/ishaan/Desktop/angles/angle1.mp4', '/Users/ishaan/Desktop/angles/angle2.mp4'
                 , '/Users/ishaan/Desktop/angles/angle3.mp4', '/Users/ishaan/Desktop/angles/angle4.mp4'
                 , '/Users/ishaan/Desktop/angles/angle5.mp4', ' /Users/ishaan/Desktop/angles/angle6.mp4')
