@@ -1,8 +1,11 @@
 from tkinter import *
 
+#necessary for tkinter programs
 root = Tk()
+#not necessary simply labels the frame that pops up as DANNCE GUI (design element)
 root.title('DANNCE GUI')
 
+#defines all the variables
 var1 = IntVar()
 var2 = IntVar()
 var3 = IntVar()
@@ -26,6 +29,7 @@ var20 = IntVar()
 var21 = IntVar()
 var22 = IntVar()
 
+#defines checkbuttons as c so they are easier to output using the grid function
 c =Checkbutton(root, text="Left Ear", variable=var1)
 c.grid(row=900, column=0)
 c =Checkbutton(root, text="Right Ear", variable=var2)
@@ -71,4 +75,5 @@ c.grid(row=9000, column=9000)
 c =Checkbutton(root, text="Right Knee", variable=var22)
 c.grid(row=9900, column=9000)
  
+#necessary to close the tkinter program
 root.mainloop()
