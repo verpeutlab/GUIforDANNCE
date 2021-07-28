@@ -1,7 +1,7 @@
 #necessary python function (not using tkinter)
 import cv2
 
-#captures the video
+#captures the video(change pathway for your device)
 cap = cv2.VideoCapture('/Users/ishaan/Downloads/0.mp4')
  
 # if the video is opened it plays or displays an error
