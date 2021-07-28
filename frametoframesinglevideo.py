@@ -4,7 +4,7 @@ import threading
 import imageio
 from PIL import Image, ImageTk
 
-#this code only has one video, which is labeled and captured below 
+#this code only has one video, which is labeled and captured below (change the pathway for your code)
 video_name = "/Users/ishaan/Desktop/angles/angle1.mp4"
 video = imageio.get_reader(video_name)
 
